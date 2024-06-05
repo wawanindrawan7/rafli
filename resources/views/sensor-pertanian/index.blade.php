@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('content')
-    @if (Auth::user()->role == '1')
+    @if (Auth::user()->role == '1' || Auth::user()->role == '3')
         <div class="row">
             <div class="col-xl-12 mx-auto">
                 <div class="card">

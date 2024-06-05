@@ -112,7 +112,7 @@
                             <div class="menu-title">Dashboard</div>
                         </a>
                     </li>
-                    @if (Auth::user()->role == '2' || Auth::user()->role == '3')
+                    @if (Auth::user()->role == '2')
                         <li>
                             <a href="{{ url('informasi-pertanian') }}">
                                 <div class="parent-icon icon-color-1"><i class="bx bx-line-chart"></i>
@@ -122,7 +122,7 @@
                         </li>
                     @endif
 
-                    @if (Auth::user()->role == '1')
+                    @if (Auth::user()->role == '1' || Auth::user()->role == '3')
                         <li>
                             <a href="javascript:;" class="has-arrow">
                                 <div class="parent-icon icon-color-1"><i class="bx bx-line-chart"></i>
