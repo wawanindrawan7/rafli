@@ -61,8 +61,8 @@
                                         <div class="card-body text-center">
                                             <div class="mb-3">
                                                 <img class="radius-15"
-                                                    src="https://cdn.pixabay.com/photo/2015/01/10/23/04/map-595791_1280.png"
-                                                    width="150" height="150" alt="">
+                                                    src="https://kelasbelajar.org/wp-content/uploads/2023/02/Google-Map.jpg"
+                                                    width="200" height="150" alt="">
                                             </div>
                                             {{-- <h4 class="mb-0 font-weight-bold mt-3">{{ $book }}</h4> --}}
                                             <a target="_blank" href="{{ $item->peta }}" class="btn btn-primary">Lokasi</a>

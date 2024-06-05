@@ -26,7 +26,7 @@
                             <select name="role" class="form-control">
                                 <option value="1">Admin</option>
                                 <option value="2">Masyarakat NTB</option>
-                                <option value="3">Kementaan Pemprov NTB</option>
+                                <option value="3">Kementan Pemprov NTB</option>
                             </select>
                         </div>
 
